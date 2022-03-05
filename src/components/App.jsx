@@ -19,8 +19,8 @@ const postData = (url, data) => {
 };
 
 const contentfulClient = createClient({
-    space: process.env.REACT_APP_CONTENTFUL_SPACE_ID || 'my-space-id',
-    accessToken: process.env.REACT_APP_CONTENTFUL_ACCESS_TOKEN || 'my-access-token',
+    space: process.env.REACT_APP_CONTENTFUL_SPACE_ID,
+    accessToken: process.env.REACT_APP_CONTENTFUL_ACCESS_TOKEN,
     host: process.env.REACT_APP_CONTENTFUL_HOST
 });
 
